@@ -1,4 +1,9 @@
 
+
+window.addEventListener('load', function () {
+    alert("It's loaded!")
+  
+
 function checkInput() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
@@ -8,4 +13,4 @@ function checkInput() {
     } else {
         alert("Vul alstublieft zowel gebruikersnaam als wachtwoord in voordat u doorgaat.");
     }
-}
+}});
