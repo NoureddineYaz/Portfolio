@@ -20,6 +20,7 @@ body {
     
 }
 
+
 .navbar a {
     color: #fff;
     text-decoration: none;
@@ -109,7 +110,12 @@ li {
         display: block;
         cursor: pointer;
         padding: 10px;
-        font-size: larger;
+        font-size:xx-large;
+        background-color: transparent;
+        position: relative;
+        left: 47%;
+        
+        color: #fff;
         
         border: none;
         border-radius: 5px;
