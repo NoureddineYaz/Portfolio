@@ -3,12 +3,13 @@
 <head>
     <title>Welkom bij ReisAvonturen</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="libraries/aos.css">
 </head>
 <body>
     <div class="background-image"></div>
     
     <div class="login-box">
-        <h1>Welkom bij ReisAvonturen</h1>
+        <div data-aos="fade-up"><h1>Welkom bij ReisAvonturen</h1></div>
         <form>
             
             <input type="text" id="username" placeholder="gebruikersnaam" name="username" required>
@@ -22,5 +23,9 @@
           
     </div>
     <script src="index.js"></script>
+    <script src="libraries/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
