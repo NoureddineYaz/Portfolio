@@ -1,6 +1,8 @@
 body {
     margin: auto;
-    background-image: url('images/travel-hd-vxjzavxhlyez3ncc.jpg');
+    background-image: url('images/mountain.png');
+    width: 100vw;
+    height: 100vh;    
     
     background-size: cover;
     background-repeat: no-repeat;
