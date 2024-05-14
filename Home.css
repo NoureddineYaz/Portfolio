@@ -17,10 +17,11 @@ body {
 
 .navbar li {
     margin: 0 15px;
+    
 }
 
 .navbar a {
-    color: black;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
     font-family: Arial, sans-serif;
@@ -41,13 +42,14 @@ body {
 
 header {
     
-    color: black;
+    color: #fff;
     text-align: center;
     padding: 20px 0;
 }
 
 section {
     padding: 20px;
+    color: #fff;
 }
 
 footer {
@@ -61,6 +63,9 @@ footer {
     color: #3366cc;
     
 }
+h1{
+    color: #fff;
+}
 
 li {
     padding: 10px;
@@ -70,20 +75,31 @@ li {
     text-align: center;
     line-height: 1.5;
     border-bottom: 1px solid #ccc;
+    color: #fff;
   }
   
   li:hover {
-    background-color: #f0f0f0;
+    background-color: #fff;
+    color: #333;
+    transition: 0.15s;
+
   }
 .burger-menu {
     display: none; 
+
     
 }
 .burger-links{
     display: none;
 }
 @media only screen and (max-width: 600px) {
-    
+    header li:hover{
+        background-color: #333;
+        
+    }
+    header li{
+        transition: 1s;
+    }
     .navbar {
         display: none; 
     }
@@ -92,7 +108,7 @@ li {
         display: block;
         cursor: pointer;
         padding: 10px;
-        background-color: #2e2828;
+        background-color: #f1f1f1;
         color: #fff;
         border: none;
         border-radius: 5px;
@@ -109,9 +125,6 @@ li {
         transition: 0.3s;
     }
     
-    .burger-links a:hover {
-        background-color: #555;
-    }
     
     
 
