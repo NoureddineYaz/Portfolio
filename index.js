@@ -1,6 +1,6 @@
 
 
-window.addEventListener('load', function () {
+
     
   
 
@@ -13,4 +13,4 @@ function checkInput() {
     } else {
         alert("Vul alstublieft zowel gebruikersnaam als wachtwoord in voordat u doorgaat.");
     }
-}});
+}
