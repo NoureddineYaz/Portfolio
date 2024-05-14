@@ -1,7 +1,7 @@
 
 
 window.addEventListener('load', function () {
-    alert("It's loaded!")
+    
   
 
 function checkInput() {
