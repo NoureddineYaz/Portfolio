@@ -92,6 +92,7 @@ li {
 .burger-links{
     display: none;
 }
+
 @media only screen and (max-width: 600px) {
     header li:hover{
         background-color: #333;
@@ -108,13 +109,14 @@ li {
         display: block;
         cursor: pointer;
         padding: 10px;
-        background-color: #f1f1f1;
-        color: #fff;
+        font-size: larger;
+        
         border: none;
         border-radius: 5px;
 
         display: flex;
         align-items: center;
+        margin: 4px;
     }
     .burger-links a {
         display: block;
