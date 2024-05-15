@@ -61,14 +61,21 @@ footer {
 }
 .country {
     font-weight: bold;
-    color: #3366cc;
+    color: #fff;
     
+}
+.country:hover{
+    color: #333;
 }
 h1{
     color: #fff;
 }
 
-li {
+li:hover > .country{
+    color: #333;
+}
+
+li{
     padding: 10px;
     margin-bottom: 10px;
     font-family: Arial, sans-serif;

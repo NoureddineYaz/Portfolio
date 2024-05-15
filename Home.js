@@ -1,4 +1,6 @@
-
+window.addEventListener('load', function () {
+    
+  
 
 const burgerMenu = document.querySelector('.burger-menu');
 const burgerLinks = document.querySelector('.burger-links');
@@ -13,4 +15,4 @@ navbar.addEventListener('mouseover', () => {
 });
 navbar.addEventListener('mouseleave', () => {
     navbar.classList.remove('animated');
-});
+})});
